@@ -50,7 +50,12 @@ public final class InfiniteScrollingView: UIView {
         addSubview(activity)
         addSubview(titleLabel)
 
-        activity.center = CGPoint(x: 20, y: height / 2)
+        //activity.center = CGPoint(x: 20, y: height / 2)
+        // Center activity indicator horizontally and vertically
+        NSLayoutConstraint.activate([
+            activity.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+            activity.centerYAnchor.constraint(equalTo: self.centerYAnchor, constant: -20) // negative moves it up
+        ])
         titleLabel.frame = CGRect(x: 0, y: 0, width: bounds.width, height: height)
         titleLabel.autoresizingMask = [.flexibleWidth]
     }
