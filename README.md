@@ -33,7 +33,11 @@
 
 Add the package in Xcode:
 
-File → Add Packages → Enter URL: `https://github.com/vishalvaghasiya-ios/SVPullToRefreshSwift.git`
+File → Add Packages → Enter URL:
+
+```bash
+https://github.com/vishalvaghasiya-ios/SVPullToRefreshSwift.git
+```
 
 Or add it to `Package.swift`:
 
