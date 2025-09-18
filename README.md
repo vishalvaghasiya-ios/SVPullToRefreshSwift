@@ -1,13 +1,13 @@
 # SVPullToRefreshSwift
 
 ## Table of Contents
-- ✨ Features
-- 🛠 Requirements
-- 📦 Installation
-- 🚀 Usage
-- ⚠️ Notes
-- 📝 Version
-- 👤 Author
+- [✨ Features](#-features)
+- [🛠 Requirements](#-requirements)
+- [📦 Installation](#-installation)
+- [🚀 Usage](#-usage)
+- [⚠️ Notes](#-notes)
+- [📝 Version](#-version)
+- [👤 Author](#-author)
 
 ---
 
@@ -33,10 +33,7 @@
 
 Add the package in Xcode:
 
-```
-File → Add Packages → Enter URL:
-https://github.com/vishalvaghasiya-ios/SVPullToRefreshSwift.git
-```
+File → Add Packages → Enter URL: `https://github.com/vishalvaghasiya-ios/SVPullToRefreshSwift.git`
 
 Or add it to `Package.swift`:
 
